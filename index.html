@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title></title>
+    <script src="./scripts/scripts.js"></script>
+
+    <title>EXPERIMENTS</title>
 </head>
 <body>
     <header>
@@ -16,6 +18,9 @@
         <ul>
             <li><a href="./pages/ideas.html">Ideas</a></li>
             <li><a href="./pages/basestyle.html">The Base Style</a></li>
+            <li>Change Style: <a href="#" onclick="changeCSS('./styles/changestyle1.css', 1)">1</a>
+                <a href="#" onclick="changeCSS('./styles/changestyle2.css', 1)">2</a>
+                <a class="small" href="#" onclick="changeCSS('./styles/style.css', 1)">back to normal</a></li>
             <!--
                 <li><a href=""></a></li>
              -->
